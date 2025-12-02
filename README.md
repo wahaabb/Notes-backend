@@ -12,24 +12,8 @@ This app allows users to create, view, edit, and delete notes with a minimal UI.
 * ✏️ **Edit Notes** — Update your existing notes
 * 🗑️ **Delete Notes** — Remove notes anytime
 * 🎨 **Tailwind CSS UI** — Clean and modern design
-* 📦 **File-based Storage / DB (depending on your implementation)**
+* 📦 **File-based Storage**
 
----
-
-## 📁 Project Structure
-
-```
-project-folder/
-│
-├── public/              # CSS/Assets
-├── views/               # EJS templates
-│   ├── home.ejs
-│   ├── edit.ejs
-│   └── read.ejs
-│
-├── index.js             # Main server file
-└── data/notes.json      # Notes storage (if using JSON)
-```
 
 ---
 
@@ -70,7 +54,7 @@ http://localhost:3000
 * **Express.js**
 * **EJS**
 * **Tailwind CSS**
-* **File System (fs) or Database**
+* **File System (fs)**
 
 ---
 
